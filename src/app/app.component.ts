@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 
 import { AuthService } from './auth/auth.service';
@@ -19,15 +18,4 @@ export class AppComponent implements OnInit {
     this.authService.autoLogin();
     this.loggingService.printLog('Hello from AppComponent ngOnInit');
   }
-=======
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
-})
-export class AppComponent  {
-  name = 'Angular';
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
 }

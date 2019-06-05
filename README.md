@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NgCompleteGuideUpdate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
@@ -26,8 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# angular-q8gsxm
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-q8gsxm)
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec

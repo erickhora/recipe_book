@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "ng-complete-guide-update": {
-=======
-    "demo": {
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,11 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
             "outputPath": "dist/ng-complete-guide-update",
-=======
-            "outputPath": "dist/demo",
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -31,17 +23,11 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
-=======
-              "src/styles.css"
-            ],
-            "scripts": []
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
           },
           "configurations": {
             "production": {
@@ -59,7 +45,6 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-<<<<<<< HEAD
               "buildOptimizer": true,
               "budgets": [
                 {
@@ -68,39 +53,24 @@
                   "maximumError": "5mb"
                 }
               ]
-=======
-              "buildOptimizer": true
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "ng-complete-guide-update:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "ng-complete-guide-update:build:production"
-=======
-            "browserTarget": "demo:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "demo:build:production"
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "ng-complete-guide-update:build"
-=======
-            "browserTarget": "demo:build"
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
           }
         },
         "test": {
@@ -111,11 +81,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-<<<<<<< HEAD
               "src/styles.css"
-=======
-              "styles.css"
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
             ],
             "scripts": [],
             "assets": [
@@ -137,7 +103,6 @@
           }
         }
       }
-<<<<<<< HEAD
     },
     "ng-complete-guide-update-e2e": {
       "root": "e2e/",
@@ -170,9 +135,3 @@
   },
   "defaultProject": "ng-complete-guide-update"
 }
-=======
-    }
-  },
-  "defaultProject": "demo"
-}
->>>>>>> a536427f43176dd86e0e65292926b56ea880faec
